@@ -9,6 +9,7 @@ namespace test0831
         {
             //Console.WriteLine("Hello World!");
 
+            //demo test
             var db = new MyDatabase01Context();
             var ret = from c in db.TAddressBook
                       select c;
